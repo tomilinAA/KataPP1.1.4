@@ -8,7 +8,7 @@ public class Main {
         userService.createUsersTable();
         userService.saveUser("Артём", "Томилин", (byte) 22);
         System.out.println("User с именем – Артём добавлен в базу данных");
-//        userService.saveUser("Кто нибудь 1", "Какая нибудь1", (byte) 1 );
+        userService.saveUser("Кто нибудь 1", "Какая нибудь1", (byte) 1 );
 //        System.out.println("User с именем – \"Кто нибудь 1\" добавлен в базу данных");
 //        userService.saveUser("Кто нибудь 2", "Какая нибудь2", (byte) 2);
 //        userService.getAllUsers().forEach(System.out::println);
